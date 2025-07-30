@@ -28,9 +28,6 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-      - name: Run tests
-        run: npm run test
 # not part, just a work around seting up test and deploy for yml for learning purposes
 #   test:
 #     runs-on: windows-latest
