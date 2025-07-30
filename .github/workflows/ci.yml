@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Set up node.js
-        uses: actions/setup_nodejs@v2
+        uses: actions/setup-node@v2
         with:
           node-versions: '22'
           cache: 'npm'
